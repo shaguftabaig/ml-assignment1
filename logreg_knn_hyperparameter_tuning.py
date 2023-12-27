@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import cross_val_score
 
 #Loading the data set
-file_path = '/Users/shaguftaafreenbaig/Documents/ML/assignment1/diabetes.csv'
+file_path = 'diabetes.csv'
 data = pd.read_csv(file_path)
 
 #Remove DiabetesPedigreeFunnction column
